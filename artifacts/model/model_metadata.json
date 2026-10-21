@@ -1,0 +1,15 @@
+{
+  "model_type": "bert-base-uncased",
+  "id2label": {
+    "0": "Real",
+    "1": "Fake"
+  },
+  "label2id": {
+    "Real": 0,
+    "Fake": 1
+  },
+  "max_length": 128,
+  "best_val_f1": 0.9936606046198344,
+  "best_epoch": 2,
+  "strip_dateline": true
+}

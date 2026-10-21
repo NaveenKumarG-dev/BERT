@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.csv
+# Model Checkpoints (weights can be large)
+artifacts/model/*.bin
+artifacts/model/*.safetensors
+
+# Streamlit config / cache
+.streamlit/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
